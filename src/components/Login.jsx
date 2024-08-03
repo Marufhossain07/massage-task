@@ -4,7 +4,7 @@ import google from "../assets/google.png"
 import { useState } from "react";
 import { FiEye, FiEyeOff } from "react-icons/fi";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import '../index.css';
@@ -61,13 +61,16 @@ const Login = () => {
                                 Sign in</button>
                         </div>
                     </form>
-                    <p className="text-[15px] mt-4 text-center text-[#142D3A]">Don&apos;t have an account?<span> </span> 
+                    <p className="text-[15px] mt-4 text-center text-[#142D3A]">Don&apos;t have an account?<span> </span>
                         <a href="#" className="underline font-medium text-[#156BCA]">Create Account</a>
                     </p>
 
                 </div>
                 <div className="hidden login bg-cover rounded-2xl h-[802px] lg:block lg:w-1/2">
-                    <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+                    <Swiper autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }} pagination={true} modules={[Pagination, Autoplay]} className="mySwiper">
                         <SwiperSlide>
                             <h3 className="bg-[#152A16] mt-[50%] w-1/2 mx-auto py-7 px-8 rounded-lg bg-opacity-[0.7] text-white text-xl">
                                 <a className="text-[#156BCA] font-semibold " href="">Sign In</a> to view all the <br /> massage therapists

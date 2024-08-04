@@ -11,7 +11,6 @@ const Main = () => {
             <Navbar></Navbar>
             <Outlet/>
             </div>
-            
         </div>
         </div>
     );

@@ -2,7 +2,7 @@ import { BsGrid } from "react-icons/bs";
 
 const Sidebar = () => {
     return (
-        <div className="w-60 h-screen space-y-2 border border-[#E7E7E7]  text-[#5C635A]">
+        <div className="w-60 max-h-full space-y-2 border border-[#E7E7E7]  text-[#5C635A]">
             <div className="">
                 <h3 className="logo mt-6 text-center text-[40px]">LOGO</h3>
             </div>

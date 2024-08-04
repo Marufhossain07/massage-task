@@ -1,4 +1,4 @@
-
+/* eslint-disable react/prop-types */ 
 const TestimonialCard = ({therapist}) => {
     return (
         <div className="flex p-[10px] w-[490px] gap-[10px] rounded-xl overflow-hidden border border-[#E7E7E7] ">

@@ -30,3 +30,7 @@
   align-items: center;
 }
 
+#nav ul i a>a.active{
+  background-color: black;
+}
+

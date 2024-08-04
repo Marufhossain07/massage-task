@@ -18,7 +18,7 @@ const FeaturedTherapists = () => {
   return (
     <div className="mt-8">
       <h3 className="text-[#152A16] mb-[18px] text-lg font-medium">Featured Therapist</h3>
-      <div className="bg-white rounded-xl relative px-24 py-8">
+      <div className="bg-white rounded-xl relative px-8 py-4 sm:px-12 sm:py-6 lg:px-24 lg:py-8">
         <Swiper
           navigation={{
             nextEl: '.swiper-button-next',
@@ -26,6 +26,20 @@ const FeaturedTherapists = () => {
           }}
           spaceBetween={25}
           slidesPerView={4}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            400: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            865: {
+              slidesPerView: 4,
+            },
+          }}
           modules={[Navigation]}
           className="mySwiper"
         >

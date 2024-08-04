@@ -1,8 +1,15 @@
-# React + Vite
+# Massage Job Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live : [Massage](https://massage-task.web.app/)
 
-Currently, two official plugins are available:
+  ## To Run This Project Locally,follow these steps
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```sh
+git clone [use my code link]
+```
+```sh
+npm i
+```
+```sh
+npm run dev
+```

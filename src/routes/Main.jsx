@@ -7,7 +7,7 @@ const Main = () => {
         <div className="max-w-[1440px] mx-auto">
         <div className="flex justify-between">
             <Sidebar></Sidebar>
-            <div className="w-full">
+            <div className="w-[1200px]">
             <Navbar></Navbar>
             <Outlet/>
             </div>

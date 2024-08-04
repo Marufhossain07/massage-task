@@ -2,7 +2,7 @@ import { BsGrid } from "react-icons/bs";
 
 const Sidebar = () => {
     return (
-        <div className=" h-screen space-y-2 w-60 border border-[#E7E7E7]  text-[#5C635A]">
+        <div className="w-60 h-screen space-y-2 border border-[#E7E7E7]  text-[#5C635A]">
             <div className="">
                 <h3 className="logo mt-6 text-center text-[40px]">LOGO</h3>
             </div>
@@ -14,7 +14,7 @@ const Sidebar = () => {
                             <span>Home</span>
                         </a>
                     </li>
-                    <li className="bg-yellow-400">
+                    <li className="bg-[#D4E9FF]">
                         <a rel="noopener noreferrer" href="#" className="flex gap-3 items-center py-3 px-6">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M7.19363 11.405C9.96038 11.405 12.3251 11.8243 12.3251 13.499C12.3251 15.1738 9.97613 15.605 7.19363 15.605C4.42613 15.605 2.06213 15.1895 2.06213 13.514C2.06213 11.8385 4.41038 11.405 7.19363 11.405Z" stroke="#5C635A" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />

@@ -10,13 +10,12 @@
         "services": [
             "Mobile",
             "In-Studio"
-        ],
-        "image": "https://example.com/images/alexander_cort.jpg"
+        ]
     },
     {
         "id": 2,
         "name": "Michael Smith",
-        "photo": "https://i.ibb.co/zm2P58h/img3.png",
+        "photo": "https://i.ibb.co/JyW8nYk/img2.png",
         "description": "Expert in family therapy. Michael's expertise in family therapy helped us navigate difficult times and brought our family closer together.",
         "address": "789 Maple Drive, NY",
         "city": "New York",
@@ -24,27 +23,25 @@
         "services": [
             "Mobile",
             "In-Studio"
-        ],
-        "image": "https://example.com/images/michael_smith.jpg"
+        ]
     },
     {
         "id": 3,
         "name": "David Martinez",
-        "photo": "https://i.ibb.co/CWB1YHy/img2.png",
+        "photo": "https://i.ibb.co/K96MF0j/img33.png",
         "description": "Experienced in massage therapy. Martinez has a gentle yet effective approach to massage, leaving clients feeling relaxed and rejuvenated.",
-        "address": "Pine Street, San Francisco",
+        "address": "Pine S., San Francisco",
         "city": "San Francisco",
         "zip": "94101",
         "services": [
             "Mobile",
             "In-Studio"
-        ],
-        "image": "https://example.com/images/david_martinez.jpg"
+        ]
     },
     {
         "id": 4,
         "name": "Jennifer Lee",
-        "photo":"https://i.ibb.co/93Gp42c/img1.png",
+        "photo":"https://i.ibb.co/9vYMQc5/img4.png",
         "description": "Specializes in mobile and in-studio therapy. Jennifer's sessions are tailored to each client, ensuring the best possible results for their unique needs.",
         "address": "567 Cedar Lane, Miami",
         "city": "Miami",
@@ -52,35 +49,32 @@
         "services": [
             "Mobile",
             "In-Studio"
-        ],
-        "image": "https://example.com/images/jennifer_lee.jpg"
+        ]
     },
     {
         "id": 5,
         "name": "Jacob Clark",
-        "photo": "https://i.ibb.co/GsjbX8T/img6.png",
+        "photo": "https://i.ibb.co/xM9NJ9n/img5.png",
         "description": "Specializes in sports massage therapy. Jacob's sessions are designed to aid in muscle recovery and enhance athletic performance.",
-        "address": "890 Oak Avenue, Los Angeles",
+        "address": "890 Avenue, Los Angeles",
         "city": "Los Angeles",
         "zip": "90001",
         "services": [
             "Mobile",
             "In-Studio"
-        ],
-        "image": "https://example.com/images/emily_clark.jpg"
+        ]
     },
     {
         "id": 6,
         "name": "James Wilson",
-        "photo": "https://i.ibb.co/HqdMDmd/img5.png",
+        "photo": "https://i.ibb.co/HTfs1TL/img6.png",
         "description": "Expert in deep tissue massage. James's techniques are highly effective for treating chronic pain and muscle tension.",
-        "address": "456 Maple Boulevard, Chicago",
+        "address": "456 Boulevard, Chicago",
         "city": "Chicago",
         "zip": "60601",
         "services": [
             "Mobile",
             "In-Studio"
-        ],
-        "image": "https://example.com/images/james_wilson.jpg"
+        ]
     }
 ]

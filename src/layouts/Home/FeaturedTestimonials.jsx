@@ -19,7 +19,7 @@ const FeaturedTestimonials = () => {
     return (
         <div>
             <h3 className="text-[#152A16] mt-[30px] mb-2 text-lg font-medium">Featured Testimonial</h3>
-            <div className="bg-white w-[590px] p-8 flex flex-col gap-5 rounded-xl">
+            <div className="bg-white w-full lg:w-[590px] py-6 px-4 lg:px-8 lg:py-8 flex flex-col gap-5 lg:rounded-xl">
                 <Swiper
                     slidesPerView={1}
                     grid={{

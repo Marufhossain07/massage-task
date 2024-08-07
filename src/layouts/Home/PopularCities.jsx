@@ -12,7 +12,7 @@ const PopularCities = () => {
     console.log(cities.length);
     
     return (
-        <div className="w-[550px]">
+        <div className="w-full lg:w-[550px]">
             <h3 className="text-[#152A16] mt-[30px] mb-2 text-lg font-medium">Popular Cities</h3>
             <div className="bg-white rounded-xl w-full grid grid-cols-3 p-5">
             {

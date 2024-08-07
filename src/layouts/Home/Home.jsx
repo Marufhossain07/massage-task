@@ -5,7 +5,7 @@ import PopularCities from "./PopularCities";
 
 const Home = () => {
     return (
-        <div className="bg-[#EEF2F5] p-[30px] h-full">
+        <div className="bg-[#EEF2F5] lg:p-[30px] h-full">
            <Banner></Banner>
            <FeaturedTherapists></FeaturedTherapists>
            <div className="flex flex-col md:flex-row lg:flex-row justify-between gap-[30px]">

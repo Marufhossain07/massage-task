@@ -10,9 +10,8 @@ const Navbar = () => {
     const { user, logOut } = useContext(AuthContext)
 
     return (
-        <nav className="relative bg-white">
+        <nav className="relative z-50 bg-white">
             {/* navbar for desktop and tab */}
-            <div>
                 <div className="hidden px-6 py-4 md:flex lg:flex items-center justify-between">
                     <div className="flex items-center gap-3 mt-4 lg:mt-0">
                         <div className="w-10 h-10 overflow-hidden rounded-full">
@@ -58,10 +57,9 @@ const Navbar = () => {
                         <button onClick={logOut} className="flex text-[#F15E4A] font-medium items-center hover:opacity-40 gap-[10px]">Log Out <img src={img} alt="" /></button>
                     </div>
                 </div>
-            </div>
             {/* navbar for mobile */}
-            <div className="flex px-4 pb-2 justify-between items-center md:hidden lg:hidden">
-                <h3 className="logo mt-6 text-center text-[32px]">LOGO</h3>
+            <div className="flex relative  px-4 py-3 lg:pb-2 justify-between items-center md:hidden lg:hidden">
+                <h3 className="logo text-center text-[32px]">LOGO</h3>
                 <div className="flex gap-3">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
                         <path fillRule="evenodd" clipRule="evenodd" d="M11.9999 18.5912C17.6391 18.5912 20.2479 17.8376 20.4999 14.8129C20.4999 11.7903 18.681 11.9847 18.681 8.27608C18.681 5.37923 16.0451 2.08325 11.9999 2.08325C7.95465 2.08325 5.31873 5.37923 5.31873 8.27608C5.31873 11.9847 3.49988 11.7903 3.49988 14.8129C3.75283 17.8491 6.36165 18.5912 11.9999 18.5912Z" stroke="#152A16" strokeWidth="1.41176" strokeLinecap="round" strokeLinejoin="round" />
@@ -72,7 +70,7 @@ const Navbar = () => {
                         sidebar && <div className="fixed h-full w-screen bg-[#1F2A37A6] top-0 left-0">
                             <div className="absolute z-40 top-0 right-0 h-[686px]">
                                 <div className=" bg-[#156BCA] pr-4 pl-28 pb-12 pt-28">
-                                    <img src="https://source.unsplash.com/100x100/?portrait" alt="" className="w-[74px] relative -right-20 h-[74px] rounded-full " />
+                                    <img src="https://i.ibb.co/HTfs1TL/img6.png" alt="" className="w-[74px] object-cover relative -right-20 h-[74px] rounded-full " />
                                     <div>
                                         <h2 className="text-2xl text-right mt-3 mb-1 text-white font-semibold">Leroy Jenkins</h2>
                                         <p className="text-xs text-right text-[#1A2634]">sagar@gmail.com</p>
